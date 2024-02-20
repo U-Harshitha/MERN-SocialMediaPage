@@ -2,7 +2,7 @@
 
 🌐 **Explore, Connect, Blog!**
 
-Welcome to our MERN stack-based social media website, where individuals can unleash their thoughts and stories through captivating blog posts. This platform provides a seamless experience for users to share their ideas, connect with like-minded individuals, and engage in meaningful discussions.
+MERN stack-based social media website, where individuals can unleash their thoughts through captivating blog posts. This platform provides a seamless experience for users to share their ideas and connect with like-minded individuals.
 
 ## Features:
 

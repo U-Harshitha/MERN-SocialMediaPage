@@ -3,7 +3,7 @@ import './App.css';
 import Login from './components/account/Login';
 function App() {
   return (
-    <div className="App">
+    <div style = {{marginTop: 35}}>
       <Login/>
     </div>
   );

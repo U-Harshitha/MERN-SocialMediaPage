@@ -42,6 +42,9 @@ const Login = () => {
     const onInputChange = (e) => {
         setSignup({...signup, [e.target.name]:e.target.value});
     }
+    const signupUser = () => {
+        
+    }
     return(
         <Component>
             <Box>
@@ -63,8 +66,8 @@ const Login = () => {
             <TextField onChange = {() => onInputChange()} name = 'pincode'  label="Pin Code" variant="outlined" />
             <TextField onChange = {() => onInputChange()} name = 'password'  label="Password" variant="outlined" />
             <TextField id="Re-enter Password" onChange = {() => onInputChange()}  name = 'password' label="Re-enter Password" variant="outlined" />
-            <Button variant='contained'>Sign Up</Button>
-            <Button onClick={() => toggleSignup()} variant="outlined" href="#outlined-buttons">
+            <Button variant='contained' onClick={()=> signupUser()}>Sign Up</Button>
+            <Button onClick={() => toggleSignup()} variant="outlined" href="#outlined-buttons" >
             Login to Existing Account
             </Button>
             </Wrapper>
